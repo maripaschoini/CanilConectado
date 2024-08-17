@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CanilConectado</title>
+    <link rel="stylesheet" href="/css/pagina_login.css" />
+  </head>
+  <body>
+    <form id="login">
+      <div class="image-section">
+        <img src="/img/imglogin.png" alt="Imagem de login" />
+      </div>
+      <div class="dados">
+        <img src="/img/logo.png" alt="Logo" />
+        <h2>Insira seus dados para entrar</h2>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="E-mail"
+          required
+        />
+        <input
+          type="password"
+          id="senha"
+          name="senha"
+          placeholder="Senha"
+          required
+        />
+        <button id="entrar" type="submit">Entrar</button>
+        <p>
+          <a href="#">Esqueceu a senha?</a>
+        </p>
+        <p>
+          Ainda não tem conta? <a href="pagina_cadastro.html">Registrar.</a>
+        </p>
+      </div>
+    </form>
+    <script src="/js/pagina_login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CanilConectado</title>
+    <link rel="stylesheet" href="/css/pagina_cadastro.css" />
+  </head>
+  <body>
+    <form id="cadastro">
+      <div class="logo-container">
+        <img src="/img/logo.png" alt="logo" />
+      </div>
+      <div class="input-group">
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Nome"
+          required
+          maxlength="50"
+        />
+        <input
+          type="text"
+          id="CPF"
+          name="CPF"
+          placeholder="CPF"
+          maxlength="14"
+        />
+        <input
+          type="text"
+          id="CNPJ"
+          name="CNPJ"
+          placeholder="CNPJ"
+          maxlength="18"
+        />
+        <input
+          type="email"
+          id="emailCadastro"
+          name="emailCadastro"
+          placeholder="E-mail"
+          required
+          maxlength="50"
+        />
+        <input
+          type="tel"
+          id="telefone"
+          name="telefone"
+          placeholder="Telefone"
+          required
+          maxlength="15"
+        />
+        <input
+          type="text"
+          id="RD"
+          name="redesocial"
+          placeholder="Rede social"
+          required
+          maxlength="50"
+        />
+        <input
+          type="password"
+          id="senhaCadastro"
+          name="senhaCadastro"
+          placeholder="Senha "
+          required
+          maxlength="50"
+        />
+        <input
+          type="password"
+          id="confirmarSenha"
+          name="confirmarSenha"
+          placeholder="Confirmar Senha"
+          required
+          maxlength="50"
+        />
+      </div>
+      <input type="submit" value="Cadastrar" />
+      <p>Já tem uma conta? <a href="pagina_login.html">Entrar</a></p>
+    </form>
+    <script src="/js/pagina_cadastro.js"></script>
+  </body>
+</html>

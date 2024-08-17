@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CanilConectado</title>
+    <link rel="stylesheet" href="/css/divulgue.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/img/logo.png" alt="Logo do Site" />
+      </div>
+      <div class="frasep">
+        <p7>Divulgue e ajude um animal a encontrar um lar</p7>
+      </div>
+      <div class="header-buttons">
+        <a href="index.html">Página Inicial</a>
+      </div>
+    </header>
+
+    <form id="cadastro" enctype="multipart/form-data">
+      <div class="input-container">
+        <div class="input-group">
+          <div class="frase1">
+            <p4>Insira os dados do animal que quer divulgar</p4>
+          </div>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Nome"
+            required
+            maxlength="20"
+          />
+          <input type="text" id="genero" name="genero" placeholder="Gênero" />
+          <input
+            type="text"
+            id="porte"
+            name="porte"
+            placeholder="Porte"
+            required
+            maxlength="10"
+          />
+          <input type="text" id="idade" name="idade" placeholder="Idade" />
+          <input
+            type="text"
+            id="especie"
+            name="especie"
+            placeholder="Espécie"
+            required
+            maxlength="10"
+          />
+          <input
+            type="text"
+            id="raca"
+            name="raca"
+            placeholder="Raça"
+            required
+            maxlength="50"
+          />
+          <input
+            type="text"
+            id="info"
+            name="info"
+            placeholder="Informações"
+            required
+            maxlength="100"
+          />
+          <div>
+            <p3>Inserir imagem</p3>
+            <input type="file" name="image" />
+          </div>
+        </div>
+        <div class="endereco">
+          <div class="frase2"><p5>Onde o animal está?</p5></div>
+          <input
+            type="text"
+            id="cidade"
+            name="cidade"
+            placeholder="Cidade"
+            required
+            maxlength="50"
+          />
+          <input
+            type="text"
+            id="estado"
+            name="estado"
+            placeholder="Estado"
+            required
+            maxlength="50"
+          />
+          <input
+            type="text"
+            id="endereco"
+            name="endereco"
+            placeholder="Endereço"
+            required
+            maxlength="50"
+          />
+          <input
+            type="text"
+            id="bairro"
+            name="bairro"
+            placeholder="Bairro"
+            required
+            maxlength="50"
+          />
+          <input type="text" id="numero" name="numero" placeholder="Número" />
+        </div>
+      </div>
+      <input type="submit" value="Cadastrar" />
+    </form>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li>
+            <a href="politica_privacidade.html">Política de Privacidade</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"
+          ><img src="/img/icons8-facebook-50.png"
+        /></a>
+        <a href="https://twitter.com" target="_blank"
+          ><img src="/img/icons8-x-50.png"
+        /></a>
+        <a href="https://instagram.com" target="_blank"
+          ><img src="/img/icons8-instagram-50.png"
+        /></a>
+      </div>
+      <p6>&copy; 2024 Canil Conectado. Todos os direitos reservados.</p6>
+    </footer>
+
+    <script src="/js/divulgue.js"></script>
+  </body>
+</html>

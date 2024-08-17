@@ -1,0 +1,188 @@
+body {
+  background-color: #ffff;
+  min-height: 100vh;
+  color: #7d4b22;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #fbe4cd;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 1%;
+  border-bottom: 2px solid #fff;
+  position: relative;
+}
+
+.logo img {
+  width: auto;
+  height: 150px;
+}
+
+.header-buttons {
+  position: absolute;
+  top: 25px;
+  right: 80px;
+}
+
+.header-buttons a {
+  color: #7d4b22;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 8px 16px;
+  border: 1px solid #7d4b22;
+  border-radius: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-container button {
+  background-color: #7d4b22;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-container button:hover {
+  background-color: #6a3a1b;
+}
+
+.content {
+  display: none;
+  text-align: center;
+  margin: 20px;
+}
+
+.content h2 {
+  margin-bottom: 20px;
+}
+
+.content p {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #fbe4cd;
+  color: #7d4b22;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer nav {
+  text-align: center;
+}
+
+footer nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul a {
+  color: #7d4b22;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #7d4b22;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.social-icons img {
+  color: #7d4b22;
+  width: 2%;
+}
+
+p6 {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #7d4b22;
+}
+
+@media (max-width: 768px) {
+  .search-filters {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-filters select {
+    width: 100%;
+  }
+}
+.animal-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.animal-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  max-width: 200px;
+  background-color: #f9f9f9;
+}
+
+.animal-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.animal-item h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  color: #7d4b22;
+}
+
+.animal-item p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #7d4b22;
+}
+
+.animal-item button {
+  background-color: #7d4b22;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.animal-item button:hover {
+  background-color: #6a3d1b;
+}
+
+.interesses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}

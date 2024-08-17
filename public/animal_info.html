@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhes do Animal</title>
+    <link rel="stylesheet" href="css/animal_info.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/img/logo.png" alt="Logo do Site" />
+      </div>
+      <div class="header-buttons">
+        <a href="index.html">Página Inicial</a>
+      </div>
+    </header>
+
+    <div class="animal-details" id="animal-details">
+      <!-- Os detalhes do animal serão inseridos aqui -->
+    </div>
+    <div>
+      <button id="interesse" type="button">Me Adote</button>
+    </div>
+
+    <!-- Modal -->
+    <div id="contactModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Informações de Contato</h2>
+        <p id="contact-info"></p>
+      </div>
+    </div>
+    <script src="/js/animal_info.js"></script>
+  </body>
+</html>
